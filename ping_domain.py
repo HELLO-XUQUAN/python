@@ -19,7 +19,7 @@ def getIP(domain):
 
 if __name__ == '__main__':
     print("------begin------")
-    with open('ip1.txt','r') as f:
+    with open('domain.txt','r') as f:
         for line in f.readlines():
             line = line.strip()
             if pattern.match(line):  #判断是否符合域名 格式
